@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>𝙋𝙧𝙤𝙙𝙪𝙠 𝘼𝙡𝙞𝙥𝙯𝙯𝙮𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙇</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://files.catbox.moe/36lyro.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    .menu-toggle {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .menu a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 5px 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .product-list {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .product {
+      background-color: rgba(255, 255, 255, 0.08);
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid white;
+    }
+
+    .product-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .price {
+      color: #ffd700;
+      margin: 5px 0;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 5px;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+
+    @media screen and (max-width: 600px) {
+      .product {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="navbar">
+      <h2>Murbug Tredict Invictus Vvip</h2>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="menu" id="menu">
+        <a href="https://t.me/AlipzzyOfficiaL" target="_blank">Tele Admin</a>
+        <a href="https://wa.me/6281399649577" target="_blank">Kontak Admin (WA)</a>
+      </div>
+    </div>
+
+    <h1>Daftar Produk</h1>
+    <div class="product-list">
+
+      <div class="product">
+        <div class="product-title">MURWEB (FULL PENGAJARAN) </div>
+        <div class="price">: Rp50.000</div>        
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Murweb%20%Full%20Pengajaran%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">MURWEB (SETENGAH PENGAJARAN) </div>
+        <div class="price">Rp25.000</div>        
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Murweb%20Setengah%20Pengajaran%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+  <img src="https://files.catbox.moe/4ufhy2.jpg" alt="Murbug Tredict Invictus Vvip" style="width: 50%; border-radius: 10px; margin-bottom: 10px;">
+  <div class="product-title">Murbug Tredict Invictus Vvip</div>
+  <div class="price">Permanent: Rp25.000</div>
+  <div class="price">30 Hari: Rp15.000</div>
+  <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Murbug%20nya%20Dong" target="_blank">
+    <i class="fab fa-whatsapp"></i> Chat WA
+  </a>
+</div>
+      <div class="product">
+        <div class="product-title">Jasa Buat Website Store</div>
+        <div class="price">Rp25.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Jasa%20Buat%20Website%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">Ready Nokos AllNegara</div>
+        <div class="price">Rp7.000-Rp100.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Nokos%20All%20Negara%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">Jasa Banned WhatsApp</div>
+        <div class="price">Rp80.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Jasa%20Banned%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">JASA SHARE</div>
+        <div class="price">Rp2.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20jasa%20share%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">Jasa Buat Script Bug Via Tele</div>
+        <div class="price">Func Bug Ganas:Rp200.000</div>
+        <div class="price">Func Bug Delay:Rp100.000</div>
+        <div class="price">Func Bug Biasa:Rp50.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Jasa%20Buat%20Script%Bug%20Via%20Tele%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">Jasa Buat Script Bug Via WhatsAppL</div>
+        <div class="price">Func Bug delay+invisible:Rp150.000</div>
+        <div class="price">Func Bug Crash Ui:Rp100.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Jasa%20Buat%20Script%20Bug%20Via%20Wa%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">Sc Cpanel Via Tele</div>
+        <div class="price">Rp20.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Script%20Cpanel%20Via%20Tele%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>      
+
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
